@@ -1,0 +1,15 @@
+.gallery {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  padding: 0;
+}
+
+.item {
+  list-style: none;
+  font-size: 0;
+}

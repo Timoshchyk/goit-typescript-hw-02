@@ -1,0 +1,56 @@
+.header {
+  background-color: rgba(29, 29, 186, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  width: 100vw;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  position: relative;
+}
+.input {
+  width: 320px;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid white;
+  padding: 8px;
+  padding-left: 12px;
+  color: rgba(29, 29, 186, 0.8);
+  font-size: 16px;
+  letter-spacing: 1.02;
+}
+.input::placeholder {
+  color: rgb(29, 29, 186, 0.8);
+}
+.button {
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  border: none;
+  color: rgb(29, 29, 186);
+  background-color: transparent;
+  border-radius: 10;
+  right: 8px;
+  top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  transform: scale(1.1);
+}
+
+.button:hover,
+.button:active {
+  fill: rgb(5, 5, 60);
+  height: 35px;
+  width: 35px;
+}
